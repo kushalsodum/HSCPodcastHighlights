@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Checkpoints
+rhapsody_model_*/
+*.pt
+*.bin
+*.safetensors
+wandb/
+
+# Data
+rhapsody/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+huggingFaceToken.txt
+*.log
